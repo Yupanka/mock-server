@@ -1,0 +1,102 @@
+{
+  "user": {
+    "username": "Dean Potter",
+    "role": "GM",
+    "location": "North Conway",
+    "area": "Cathedral Ledge"
+  },
+  "questionnaires": [
+    {
+      "id": 1,
+      "name": "Fire Safety",
+      "type": "daily"
+    },
+    {
+      "id": 2,
+      "name": "Water Safety",
+      "type": "daily"
+    },
+    {
+      "id": 3,
+      "name": "Weekly Fire Safety",
+      "type": "weekly"
+    },
+    {
+      "id": 4,
+      "name": "Weekly Water Safety",
+      "type": "weekly"
+    },
+    {
+      "id": 5,
+      "name": "Monthly Fire Safety",
+      "type": "monthly"
+    },
+    {
+      "id": 6,
+      "name": "Monthly Water Safety",
+      "type": "monthly"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "name": "Fire Safety",
+      "questions": [
+        {
+          "id": 101,
+          "question": "Heat detector is checked and confirmed functional",
+          "answerType": "bool",
+          "answer": "Yes"
+        },
+        {
+          "id": 102,
+          "question": "Fire detector is checked and confirmed functional",
+          "answerType": "bool",
+          "answer": ""
+        },
+        {
+          "id": 103,
+          "question": "Fire sprinklers are checked and confirmed functional",
+          "answerType": "bool",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Water Safety",
+      "questions": [
+        {
+          "id": 201,
+          "question": "Water sprinklers are functional",
+          "answerType": "bool",
+          "answer": "No"
+        },
+        {
+          "id": 202,
+          "question": "Did you check it yourself?",
+          "answerType": "bool",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Weekly Fire Safety",
+      "questions": [
+        {
+          "id": 201,
+          "question": "Water sprinklers were functional the whole week",
+          "answerType": "bool",
+          "answer": "Yes"
+        },
+        {
+          "id": 202,
+          "question": "Did you check it yourself every day?",
+          "answerType": "bool",
+          "answer": "Not sure"
+        }
+      ]
+    }
+  ]
+}
