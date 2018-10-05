@@ -1,102 +1,286 @@
 {
-  "user": {
-    "username": "Dean Potter",
-    "role": "GM",
-    "location": "North Conway",
-    "area": "Cathedral Ledge"
-  },
+  "users": [
+    {
+      "id": 1,
+      "username": "Dean Potter",
+      "role": "General Manager",
+      "location": "North Conway",
+      "area": "Cathedral Ledge"
+    },
+    {
+      "id": 2,
+      "username": "Steph Davis",
+      "role": "Executive",
+      "location": "North Conway",
+      "area": "Cathedral Ledge"
+    }
+  ],
   "questionnaires": [
     {
       "id": 1,
       "name": "Fire Safety",
-      "type": "daily"
+      "type": "daily",
+      "role": "General Manager"
     },
     {
       "id": 2,
       "name": "Water Safety",
-      "type": "daily"
+      "type": "daily",
+      "role": "General Manager"
+    },
+    {
+      "id": 10,
+      "name": "One More Fire Safety",
+      "type": "daily",
+      "role": "General Manager"
+    },
+    {
+      "id": 11,
+      "name": "One more Water Safety",
+      "type": "daily",
+      "role": "General Manager"
+    },
+    {
+      "id": 12,
+      "name": "Again Fire Safety",
+      "type": "daily",
+      "role": "General Manager"
+    },
+    {
+      "id": 13,
+      "name": "Again Water Safety",
+      "type": "daily",
+      "role": "General Manager"
+    },
+    {
+      "id": 14,
+      "name": "Other Safety",
+      "type": "daily",
+      "role": "General Manager"
+    },
+    {
+      "id": 15,
+      "name": "Maybe Other Safety",
+      "type": "daily",
+      "role": "General Manager"
+    },
+    {
+      "id": 16,
+      "name": "Some Kind of Fire Safety",
+      "type": "daily",
+      "role": "General Manager"
+    },
+    {
+      "id": 17,
+      "name": "Some kind of Water Safety",
+      "type": "daily",
+      "role": "General Manager"
     },
     {
       "id": 3,
       "name": "Weekly Fire Safety",
-      "type": "weekly"
+      "type": "weekly",
+      "role": "General Manager"
     },
     {
       "id": 4,
       "name": "Weekly Water Safety",
-      "type": "weekly"
+      "type": "weekly",
+      "role": "General Manager"
     },
     {
       "id": 5,
       "name": "Monthly Fire Safety",
-      "type": "monthly"
+      "type": "monthly",
+      "role": "General Manager"
     },
     {
       "id": 6,
       "name": "Monthly Water Safety",
-      "type": "monthly"
+      "type": "monthly",
+      "role": "General Manager"
+    },
+    {
+      "id": 7,
+      "name": "GEMBA Walk Q Daily",
+      "type": "daily",
+      "role": "Executive"
+    },
+    {
+      "id": 8,
+      "name": "GEMBA Walk Q Weekly",
+      "type": "weekly",
+      "role": "Executive"
+    },
+    {
+      "id": 9,
+      "name": "GEMBA Walk Q Monthly",
+      "type": "monthly",
+      "role": "Executive"
     }
   ],
   "questions": [
     {
-      "id": 1,
-      "name": "Fire Safety",
-      "questions": [
-        {
-          "id": 101,
-          "question": "Heat detector is checked and confirmed functional",
-          "answerType": "bool",
-          "answer": "Yes"
-        },
-        {
-          "id": 102,
-          "question": "Fire detector is checked and confirmed functional",
-          "answerType": "bool",
-          "answer": ""
-        },
-        {
-          "id": 103,
-          "question": "Fire sprinklers are checked and confirmed functional",
-          "answerType": "bool",
-          "answer": ""
-        }
-      ]
+        "questionId": 1,
+        "questionaireId": 1,
+        "text": "All areas are fully staffed.",
+        "questionTypeId": 3,
+        "description": ""
     },
     {
-      "id": 2,
-      "name": "Water Safety",
-      "questions": [
-        {
-          "id": 201,
-          "question": "Water sprinklers are functional",
-          "answerType": "bool",
-          "answer": "No"
-        },
-        {
-          "id": 202,
-          "question": "Did you check it yourself?",
-          "answerType": "bool",
-          "answer": ""
-        }
-      ]
+        "questionId": 2,
+        "questionaireId": 1,
+        "text": "PIT drivers completed check sheets.",
+        "questionTypeId": 3,
+        "description": ""
     },
     {
-      "id": 3,
-      "name": "Weekly Fire Safety",
-      "questions": [
-        {
-          "id": 201,
-          "question": "Water sprinklers were functional the whole week",
-          "answerType": "bool",
-          "answer": "Yes"
-        },
-        {
-          "id": 202,
-          "question": "Did you check it yourself every day?",
-          "answerType": "bool",
-          "answer": "Not sure"
-        }
-      ]
-    }
-  ]
+        "questionId": 3,
+        "questionaireId": 1,
+        "text": "Hour by hour boards are prepped, discussed and updated during the start-up or cross-over process.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 4,
+        "questionaireId": 2,
+        "text": "Tier boards reflect yesterday's or first shift's performance and were discussed and updated during start-up and cross-over.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 5,
+        "questionaireId": 2,
+        "text": "First or second shift Kronos issues are resolved.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 6,
+        "questionaireId": 2,
+        "text": "The shift start or cross-over meetings follow a specific agenda including Safety, Quality, Delivery, Inventory, Productivity, and Action Items.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 7,
+        "questionaireId": 3,
+        "text": "There was effective and efficient communication between leaders at start-up and cross-over meetings.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 8,
+        "questionaireId": 2,
+        "text": "All areas are fully staffed.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 9,
+        "questionaireId": 2,
+        "text": "PIT drivers completed check sheets.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 10,
+        "questionaireId": 2,
+        "text": "Hour by hour boards are prepped, discussed and updated during the start-up or cross-over process.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 11,
+        "questionaireId": 2,
+        "text": "Tier boards reflect yesterday's or first shift's performance and were discussed and updated during start-up and cross-over.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 12,
+        "questionaireId": 2,
+        "text": "First or second shift Kronos issues are resolved.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 13,
+        "questionaireId": 2,
+        "text": "The shift start or cross-over meetings follow a specific agenda including Safety, Quality, Delivery, Inventory, Productivity, and Action Items.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 14,
+        "questionaireId": 2,
+        "text": "There was effective and efficient communication between leaders at start-up and cross-over meetings.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 15,
+        "questionaireId": 3,
+        "text": "Dock doors and levelers are certified and in good condition and working order.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 16,
+        "questionaireId": 3,
+        "text": "Dock curtains and shrouds are in good condition.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 17,
+        "questionaireId": 3,
+        "text": "Chocks are available at each in-use door and are in good condition.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 18,
+        "questionaireId": 3,
+        "text": "There is a valid SWI for safe loading/unloading procedure being followed.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 19,
+        "questionaireId": 4,
+        "text": "There is sufficient lighting in the area for all dock activities.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 20,
+        "questionaireId": 4,
+        "text": "There is a valid method to control drive off risk at the docks (Dock/Key/Driver Control System etc.).",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 21,
+        "questionaireId": 5,
+        "text": "The docks are suitable for safe pallet/product movement.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 22,
+        "questionaireId": 5,
+        "text": "The lifts are suitable for safe movement/transition of pallets/product into the lift.",
+        "questionTypeId": 3,
+        "description": ""
+    },
+    {
+        "questionId": 23,
+        "questionaireId": 6,
+        "text": "Associates are moving pallets/products in a safe manner.",
+        "questionTypeId": 3,
+        "description": ""
+      }
+  ],
+  "actions": []
 }
