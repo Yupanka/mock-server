@@ -1,122 +1,76 @@
 {
-  "users": [
+  "WhoAmI": {
+    "employee": {
+      "employeeId": 2,
+      "upn": "cupcakes@rainbow.com",
+      "firstName": "Candy",
+      "lastName": "Caramel",
+      "jobTitle": "General Manager",
+      "employeeTypeId": 2,
+      "timeZone": "GMT",
+      "isSuspended": false,
+      "isTerminated": false,
+      "lastLocationId": 2,
+      "lastAreaId": 1,
+      "successFactorsPersonCode": null
+    },
+    "isSuccess": true,
+    "message": "Yay!"
+  },
+  "GetOpenQuestionairesByDisplayType": [
     {
-      "id": 1,
-      "username": "Dean Potter",
-      "role": "General Manager",
-      "location": "North Conway",
-      "area": "Cathedral Ledge"
+      "assignmentId": 1,
+      "text": "Fire Safety",
+      "intervalTypeId": 0,
+      "displayTypeId": 0,
+      "templateId": 0,
+      "questionaireId": 1,
+      "isCompleted": 0
     },
     {
-      "id": 2,
-      "username": "Steph Davis",
-      "role": "Executive",
-      "location": "North Conway",
-      "area": "Cathedral Ledge"
-    }
-  ],
-  "questionnaires": [
-    {
-      "id": 1,
-      "name": "Fire Safety",
-      "type": "daily",
-      "role": "General Manager"
+      "assignmentId": 2,
+      "text": "Water Safety",
+      "intervalTypeId": 0,
+      "displayTypeId": 0,
+      "templateId": 0,
+      "questionaireId": 2,
+      "isCompleted": 0
     },
     {
-      "id": 2,
-      "name": "Water Safety",
-      "type": "daily",
-      "role": "General Manager"
+      "assignmentId": 3,
+      "text": "New Hires",
+      "intervalTypeId": 0,
+      "displayTypeId": 1,
+      "templateId": 0,
+      "questionaireId": 3,
+      "isCompleted": 0
     },
     {
-      "id": 10,
-      "name": "One More Fire Safety",
-      "type": "daily",
-      "role": "General Manager"
+      "assignmentId": 4,
+      "text": "Security: Access Control",
+      "intervalTypeId": 0,
+      "displayTypeId": 1,
+      "templateId": 0,
+      "questionaireId": 4,
+      "isCompleted": 0
     },
     {
-      "id": 11,
-      "name": "One more Water Safety",
-      "type": "daily",
-      "role": "General Manager"
+      "assignmentId": 5,
+      "text": "Safety: Dock Area",
+      "intervalTypeId": 0,
+      "displayTypeId": 2,
+      "templateId": 0,
+      "questionaireId": 5,
+      "isCompleted": 0
     },
     {
-      "id": 12,
-      "name": "Again Fire Safety",
-      "type": "daily",
-      "role": "General Manager"
-    },
-    {
-      "id": 13,
-      "name": "Again Water Safety",
-      "type": "daily",
-      "role": "General Manager"
-    },
-    {
-      "id": 14,
-      "name": "Other Safety",
-      "type": "daily",
-      "role": "General Manager"
-    },
-    {
-      "id": 15,
-      "name": "Maybe Other Safety",
-      "type": "daily",
-      "role": "General Manager"
-    },
-    {
-      "id": 16,
-      "name": "Some Kind of Fire Safety",
-      "type": "daily",
-      "role": "General Manager"
-    },
-    {
-      "id": 17,
-      "name": "Some kind of Water Safety",
-      "type": "daily",
-      "role": "General Manager"
-    },
-    {
-      "id": 3,
-      "name": "Weekly Fire Safety",
-      "type": "weekly",
-      "role": "General Manager"
-    },
-    {
-      "id": 4,
-      "name": "Weekly Water Safety",
-      "type": "weekly",
-      "role": "General Manager"
-    },
-    {
-      "id": 5,
-      "name": "Monthly Fire Safety",
-      "type": "monthly",
-      "role": "General Manager"
-    },
-    {
-      "id": 6,
-      "name": "Monthly Water Safety",
-      "type": "monthly",
-      "role": "General Manager"
-    },
-    {
-      "id": 7,
-      "name": "GEMBA Walk Q Daily",
-      "type": "daily",
-      "role": "Executive"
-    },
-    {
-      "id": 8,
-      "name": "GEMBA Walk Q Weekly",
-      "type": "weekly",
-      "role": "Executive"
-    },
-    {
-      "id": 9,
-      "name": "GEMBA Walk Q Monthly",
-      "type": "monthly",
-      "role": "Executive"
+      "assignmentId": 6,
+      "text": "Tier 4 Audit",
+      "intervalTypeId": 0,
+      "displayTypeId": 2,
+      "templateId": 0,
+      "questionaireId": 6,
+      "isCompleted": 0
     }
   ],
   "questions": [
