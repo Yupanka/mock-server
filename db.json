@@ -1,12 +1,12 @@
 {
   "WhoAmI": {
     "employee": {
-      "employeeId": 2,
+      "employeeId": 1,
       "upn": "cupcakes@rainbow.com",
       "firstName": "Candy",
       "lastName": "Caramel",
       "jobTitle": "General Manager",
-      "employeeTypeId": 2,
+      "employeeTypeId": 1,
       "timeZone": "GMT",
       "isSuspended": false,
       "isTerminated": false,
